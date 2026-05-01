@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FTP</title>
+</head>
+<body>
+    <h1>FTP (File Transfer Protocol)</h1>
+    <h2>What it is</h2>
+    <p>FTP is a protocol for transferring files between computers over a network. It was one of the earliest
+internet protocols, developed in the 1970s. Today it is still used, though often replaced by more
+secure alternatives.</p>
+<h2>How it works</h2>
+<p>FTP uses a client-server model. An FTP client (like FileZilla) connects to an FTP server. The user
+can then upload files to the server or download files from it. FTP uses two separate connections:
+one for commands (port 21) and one for actual data transfer.</p>
+<h2>FTP vs SFTP vs FTPS</h2>
+<p>Standard FTP transmits data without encryption, which is a security risk. SFTP (SSH File Transfer
+Protocol) is a more secure alternative that encrypts all data. FTPS adds TLS/SSL encryption on
+top of FTP. For any situation involving sensitive data, SFTP or FTPS should be used instead of
+plain FTP.</p>
+</body>
+</html>
